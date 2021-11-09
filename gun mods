@@ -1,4 +1,4 @@
-local xd = require(game:GetService("Players").LocalPlayer.Backpack.Glock.Setting)
+local xd = require(game:GetService("Players").LocalPlayer.Backpack.["NAMEOFYOURGUN"].Setting)
 xd.Auto = true
 xd.BaseDamage = math.huge
 xd.FireRate = 0
