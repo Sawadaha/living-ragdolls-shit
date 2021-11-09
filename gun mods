@@ -1,0 +1,14 @@
+local xd = require(game:GetService("Players").LocalPlayer.Backpack.Glock.Setting)
+xd.Auto = true
+xd.BaseDamage = math.huge
+xd.FireRate = 0
+xd.Knockback = 6363
+xd.AmmoPerMag = math.huge
+xd.Explosive = true
+xd.Radius = math.huge
+xd.Spread = 1
+xd.Recoil = 0
+xd.Ammo = math.huge
+xd.MaxAmmo = math.huge
+xd.Mag = math.huge
+xd.LimitedAmmoEnabled = false
