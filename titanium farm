@@ -1,5 +1,4 @@
-_G.toggle = true
-while _G.toggle do
+while wait() do
  local v1 = game.Workspace.Titanium.Humanoid
  local v2 = game.Workspace.Titanium.Head
  local v3 = 9e9
