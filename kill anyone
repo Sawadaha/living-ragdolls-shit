@@ -1,0 +1,10 @@
+local playa = game.Players["user"].Character
+local v1 = playa.Humanoid
+local v2 = playa.Head
+local v3 = 9e9
+local v4 = Vector3.new(0.97916305065155, 0.017684008926153, -0.20230430364609)
+local v5 = 0
+local v6 = 0
+local v7 = true
+local event = game:GetService("Players").LocalPlayer.Backpack.Glock["GunScript_Server"].InflictTarget
+event:FireServer(v1, v2, v3, v4, v5, v6, v7)
